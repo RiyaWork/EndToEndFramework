@@ -1,0 +1,6 @@
+23:53:22.666 [TestNG-test=Regression-2] INFO  resources.Base - Driver is initialized
+23:53:22.666 [TestNG-test=Regression-1] INFO  resources.Base - Driver is initialized
+23:54:28.577 [TestNG-test=Regression-1] INFO  resources.Base - Navigated to Landing Page
+23:54:32.421 [TestNG-test=Regression-1] INFO  resources.Base - Popup appears
+23:54:48.614 [TestNG-test=Regression-2] INFO  resources.Base - Navigated to Landing Page
+23:54:49.796 [TestNG-test=Regression-2] INFO  resources.Base - Popup appears

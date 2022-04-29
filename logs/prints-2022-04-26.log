@@ -1,0 +1,6 @@
+14:43:11.146 [TestNG-test=Regression-1] INFO  resources.Base - Driver is initialized
+14:43:11.146 [TestNG-test=Regression-2] INFO  resources.Base - Driver is initialized
+14:43:45.870 [TestNG-test=Regression-2] INFO  resources.Base - Navigated to Landing Page
+14:43:46.181 [TestNG-test=Regression-2] INFO  resources.Base - Popup appears
+14:43:53.841 [TestNG-test=Regression-2] INFO  resources.Base - Navigated to Courses Page
+14:43:54.684 [AsyncHttpClient-1-6] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

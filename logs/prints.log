@@ -1,0 +1,4 @@
+14:44:44.079 [TestNG-test=Regression-1] INFO  resources.Base - Navigated to Landing Page
+14:44:44.125 [TestNG-test=Regression-1] INFO  resources.Base - Popup appears
+14:45:03.604 [TestNG-test=Regression-1] INFO  resources.Base - Navigated to Landing Page
+14:45:10.006 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
