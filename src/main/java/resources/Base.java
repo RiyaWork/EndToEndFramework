@@ -45,16 +45,17 @@ public class Base {
 		}
 
 		// Implicit wait to avoid synchronization issues -- globally applicable
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
 		return driver;
 
 	}
 
 	public String getScreenshot(String testCaseName, WebDriver driver) throws IOException {
-
 		File f = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String destinationFile = System.getProperty("user.dir") + "\\reports\\" + testCaseName + ".png";
 		FileUtils.copyFile(f, new File(destinationFile));
 		return destinationFile;
 	}
+	
+	
 }

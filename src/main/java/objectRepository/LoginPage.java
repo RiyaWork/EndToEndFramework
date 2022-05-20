@@ -22,6 +22,9 @@ public class LoginPage {
 	@FindBy(xpath = "//input[@value='Log In']")
 	private WebElement logIN;
 	
+	@FindBy(css = ".alert-danger")
+	private WebElement alertMessage;
+	
 	public WebElement getEmailAddress() {
 		return emailAddress;
 	}
@@ -32,5 +35,9 @@ public class LoginPage {
 	
 	public WebElement getLoginButton() {
 		return logIN;
+	}
+	
+	public String getAlertMessage() {
+		return alertMessage.getText();
 	}
 }
